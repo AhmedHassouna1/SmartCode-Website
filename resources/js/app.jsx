@@ -2,8 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "./components/Navbar";
 import "../css/app.css";
- import ReactDOM from "react-dom/client";
- 
+
 function App() {
   return (
     <div>
@@ -31,6 +30,5 @@ function App() {
   );
 }
 
+// ✅ تأكد أن هذا العنصر موجود داخل resources/views/app.blade.php أو أي ملف HTML رئيسي
 ReactDOM.createRoot(document.getElementById("app")).render(<App />);
-ReactDOM.createRoot(document.getElementById("app")).render(<Home />);
-
